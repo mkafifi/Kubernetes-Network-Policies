@@ -1,5 +1,4 @@
-# k8s-network-policies
-Kubernetes Network Polices
+# Kubernetes Network Polices
 
 First : Deny all traffic (Ingress and Egress) to all pods 
 ```
