@@ -10,8 +10,8 @@ metadata:
 spec:
   podSelector:
     matchLabels: {}    
-  policyTypes:
-    - Ingress
+policyTypes:
+  - Ingress
   
   ```
   
