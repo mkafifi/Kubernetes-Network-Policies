@@ -29,5 +29,5 @@ spec:
   - from:
     - namespaceSelector:
         matchLabels:
-          name: ingress-controller
+          name: NameSpace1
 ```
