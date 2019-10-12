@@ -8,10 +8,11 @@ kind: NetworkPolicy
 metadata:
   name: default-deny
 spec:
-  podSelector: {}
+  podSelector:
+    matchLabels: {}    
   policyTypes:
     - Ingress
-  matchLabels: {}
+  
   ```
   
 **Second: Allow ingress traffic**
